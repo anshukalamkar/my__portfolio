@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshu Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button onclick="showAlert()">Click Me</button>
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Anshu</h2>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+    <h1>Hi, I'm Anshu 👋</h1>
+    <p>Dancer  | Future Web Developer 💻</p>
+    <button onclick="scrollToSection()">Explore My Work</button>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I love dancing and creating content. I'm also learning web development using AI to build modern websites.</p>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="portfolio">
+    <h2>My Work</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Dance Videos</h3>
+            <p>Creative dance content for social media.</p>
+        </div>
+
+        <div class="card">
+            <h3>Web Projects</h3>
+            <p>Modern websites built using HTML, CSS & AI.</p>
+        </div>
+
+        <div class="card">
+            <h3>Future Projects</h3>
+            <p>Exciting things coming soon 🚀</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button onclick="sendMessage()">Send</button>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Anshu Kalamkar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+<div class="gallery">
+    <img src="https://via.placeholder.com/250" alt="Image 1">
+    <img src="https://via.placeholder.com/250" alt="Image 2">
+    <img src="https://via.placeholder.com/250" alt="Image 3">
+</div>
+
+<div class="buttons">
+    <button onclick="followMe()">Follow Me</button>
+    <button onclick="viewWork()">View Work</button>
+</div>
